@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Search.module.scss";
-import {ReactComponent as SearchIcon} from "../assets/icon-search.svg";
+import {ReactComponent as SearchIcon} from "../../assets/icon-search.svg";
 import Button from "../Button/Button";
 
 interface SearchProps {
