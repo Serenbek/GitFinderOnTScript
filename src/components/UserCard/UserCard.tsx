@@ -1,4 +1,6 @@
 import { LocalGithubUser } from "../../types";
+import UserInfo from "../UserInfo/UserInfo";
+import UserStat from "../UserStat/UserStat";
 import UserTitle from "../UserTitle/UserTitle";
 import styles from "./UserCard.module.scss";
 

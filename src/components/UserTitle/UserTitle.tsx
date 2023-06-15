@@ -2,7 +2,7 @@ import { LocalGithubUser } from "../../types";
 import styles from "./UserTitle.module.scss";
 
 interface UserTitleProps
-  extends Pick<LocalGithubUser, "name" | "login" | "created"> {}
+  extends Pick<LocalGithubUser, "name" | "login" | "created"> {} // выборочное выдергивание ключей
 
 const localDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
