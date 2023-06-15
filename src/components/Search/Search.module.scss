@@ -41,11 +41,11 @@
 .textField {
   padding: 0 10px;
   flex-grow: 5;
-  height: 60px;
+  min-height: 30px;
   max-width: calc(100% - 100px - 20px);
   border: none;
   color: var(--search-color);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   line-height: 1.5;
   cursor: pointer;
   background-color: var(--search-bg);
